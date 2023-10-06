@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P8/Ex8_extra/simulation/qsim
+vCmpDemoMAX
+!s110 1668791722
+!i10b 1
+!s100 3cVA>OMMf^7Y6JD`<9ZHG2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IIW<flmlQ:4ojOag><=h<A2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1668791722
+8CmpDemoMAX.vo
+FCmpDemoMAX.vo
+!i122 2
+L0 32 304
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1668791722.000000
+!s107 CmpDemoMAX.vo|
+!s90 -work|work|CmpDemoMAX.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@cmp@demo@m@a@x
+vCmpDemoMAX_vlg_vec_tst
+!s110 1668791723
+!i10b 1
+!s100 RdQJ?NUiD3hbZ:gYQGnca0
+R1
+Ilgd8l20K5TT><8Z12`j_i0
+R2
+R0
+w1668791721
+8CmpDemoMAX.vwf.vt
+FCmpDemoMAX.vwf.vt
+!i122 3
+L0 30 260
+R3
+r1
+!s85 0
+31
+!s108 1668791723.000000
+!s107 CmpDemoMAX.vwf.vt|
+!s90 -work|work|CmpDemoMAX.vwf.vt|
+!i113 1
+R4
+R5
+n@cmp@demo@m@a@x_vlg_vec_tst

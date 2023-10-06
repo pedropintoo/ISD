@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P8/Resolucao/Parte1/simulation/qsim
+vAddSubDemo
+Z1 !s110 1669244192
+!i10b 1
+!s100 j[NEi6Z2PCH[<K6RBi[Nc0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ibb]Uk8JYb]HRHF03@6Q<a1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1669244191
+8AddSubDemo.vo
+FAddSubDemo.vo
+!i122 10
+L0 32 395
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1669244191.000000
+!s107 AddSubDemo.vo|
+!s90 -work|work|AddSubDemo.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@add@sub@demo
+vAddSubDemo_vlg_vec_tst
+R1
+!i10b 1
+!s100 X@OUNHh1cn>z8Kl@UfNmH1
+R2
+II2XS]Wg;NGb6AGk8XjQP40
+R3
+R0
+w1669244190
+8AddSubDemo.vwf.vt
+FAddSubDemo.vwf.vt
+!i122 11
+L0 30 112
+R4
+r1
+!s85 0
+31
+!s108 1669244192.000000
+!s107 AddSubDemo.vwf.vt|
+!s90 -work|work|AddSubDemo.vwf.vt|
+!i113 1
+R5
+R6
+n@add@sub@demo_vlg_vec_tst

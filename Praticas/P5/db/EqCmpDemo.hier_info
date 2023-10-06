@@ -1,0 +1,84 @@
+|EpComp16
+outPort <= and0.DB_MAX_OUTPUT_PORT_TYPE
+input1[0] => EqCmp4:eqcomp0.input0[0]
+input1[1] => EqCmp4:eqcomp0.input0[1]
+input1[2] => EqCmp4:eqcomp0.input0[2]
+input1[3] => EqCmp4:eqcomp0.input0[3]
+input1[4] => EqCmp4:eqcomp1.input0[0]
+input1[5] => EqCmp4:eqcomp1.input0[1]
+input1[6] => EqCmp4:eqcomp1.input0[2]
+input1[7] => EqCmp4:eqcomp1.input0[3]
+input1[8] => EqCmp4:eqcomp2.input0[0]
+input1[9] => EqCmp4:eqcomp2.input0[1]
+input1[10] => EqCmp4:eqcomp2.input0[2]
+input1[11] => EqCmp4:eqcomp2.input0[3]
+input1[12] => EqCmp4:eqcomp3.input0[0]
+input1[13] => EqCmp4:eqcomp3.input0[1]
+input1[14] => EqCmp4:eqcomp3.input0[2]
+input1[15] => EqCmp4:eqcomp3.input0[3]
+input0[0] => EqCmp4:eqcomp0.input1[0]
+input0[1] => EqCmp4:eqcomp0.input1[1]
+input0[2] => EqCmp4:eqcomp0.input1[2]
+input0[3] => EqCmp4:eqcomp0.input1[3]
+input0[4] => EqCmp4:eqcomp1.input1[0]
+input0[5] => EqCmp4:eqcomp1.input1[1]
+input0[6] => EqCmp4:eqcomp1.input1[2]
+input0[7] => EqCmp4:eqcomp1.input1[3]
+input0[8] => EqCmp4:eqcomp2.input1[0]
+input0[9] => EqCmp4:eqcomp2.input1[1]
+input0[10] => EqCmp4:eqcomp2.input1[2]
+input0[11] => EqCmp4:eqcomp2.input1[3]
+input0[12] => EqCmp4:eqcomp3.input1[0]
+input0[13] => EqCmp4:eqcomp3.input1[1]
+input0[14] => EqCmp4:eqcomp3.input1[2]
+input0[15] => EqCmp4:eqcomp3.input1[3]
+
+
+|EpComp16|EqCmp4:eqcomp0
+outPort <= and0.DB_MAX_OUTPUT_PORT_TYPE
+input1[0] => xnor0.IN0
+input1[1] => xnor1.IN0
+input1[2] => xnor2.IN0
+input1[3] => xnor3.IN0
+input0[0] => xnor0.IN1
+input0[1] => xnor1.IN1
+input0[2] => xnor2.IN1
+input0[3] => xnor3.IN1
+
+
+|EpComp16|EqCmp4:eqcomp1
+outPort <= and0.DB_MAX_OUTPUT_PORT_TYPE
+input1[0] => xnor0.IN0
+input1[1] => xnor1.IN0
+input1[2] => xnor2.IN0
+input1[3] => xnor3.IN0
+input0[0] => xnor0.IN1
+input0[1] => xnor1.IN1
+input0[2] => xnor2.IN1
+input0[3] => xnor3.IN1
+
+
+|EpComp16|EqCmp4:eqcomp2
+outPort <= and0.DB_MAX_OUTPUT_PORT_TYPE
+input1[0] => xnor0.IN0
+input1[1] => xnor1.IN0
+input1[2] => xnor2.IN0
+input1[3] => xnor3.IN0
+input0[0] => xnor0.IN1
+input0[1] => xnor1.IN1
+input0[2] => xnor2.IN1
+input0[3] => xnor3.IN1
+
+
+|EpComp16|EqCmp4:eqcomp3
+outPort <= and0.DB_MAX_OUTPUT_PORT_TYPE
+input1[0] => xnor0.IN0
+input1[1] => xnor1.IN0
+input1[2] => xnor2.IN0
+input1[3] => xnor3.IN0
+input0[0] => xnor0.IN1
+input0[1] => xnor1.IN1
+input0[2] => xnor2.IN1
+input0[3] => xnor3.IN1
+
+

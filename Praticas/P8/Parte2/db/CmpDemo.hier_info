@@ -1,0 +1,96 @@
+|SignedCmpDemo
+Xout <= SignedCmp4bit:inst.Xout
+A[0] => SignedCmp4bit:inst.A[0]
+A[1] => SignedCmp4bit:inst.A[1]
+A[2] => SignedCmp4bit:inst.A[2]
+A[3] => SignedCmp4bit:inst.A[3]
+B[0] => SignedCmp4bit:inst.B[0]
+B[1] => SignedCmp4bit:inst.B[1]
+B[2] => SignedCmp4bit:inst.B[2]
+B[3] => SignedCmp4bit:inst.B[3]
+Yout <= SignedCmp4bit:inst.Yout
+Zout <= SignedCmp4bit:inst.Zout
+
+
+|SignedCmpDemo|SignedCmp4bit:inst
+Xout <= SignedLastBitCmp:inst5.Xout
+A[0] => Cmp1Bit:inst.Ai
+A[1] => Cmp1Bit:inst1.Ai
+A[2] => Cmp1Bit:inst4.Ai
+A[3] => SignedLastBitCmp:inst5.Ai
+B[0] => Cmp1Bit:inst.Bi
+B[1] => Cmp1Bit:inst1.Bi
+B[2] => Cmp1Bit:inst4.Bi
+B[3] => SignedLastBitCmp:inst5.Bi
+Yout <= SignedLastBitCmp:inst5.Yout
+Zout <= SignedLastBitCmp:inst5.Zout
+
+
+|SignedCmpDemo|SignedCmp4bit:inst|SignedLastBitCmp:inst5
+Yout <= and2.DB_MAX_OUTPUT_PORT_TYPE
+Bi => xor1.IN0
+Bi => inst.IN0
+Bi => inst2.IN1
+Bi => inst3.IN0
+Bi => not2.IN0
+Ai => xor1.IN1
+Ai => inst1.IN0
+Ai => inst11.IN1
+Ai => inst4.IN1
+Ai => inst5.IN2
+Yin => and2.IN1
+Yin => inst3.IN2
+Yin => inst11.IN2
+Xout <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+Zin => inst.IN2
+Zin => and3.IN1
+Xin => inst7.IN1
+Xin => inst5.IN0
+Zout <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SignedCmpDemo|SignedCmp4bit:inst|Cmp1Bit:inst4
+Yout <= and2.DB_MAX_OUTPUT_PORT_TYPE
+Bi => xor1.IN0
+Bi => inst7.IN0
+Bi => and6.IN1
+Ai => xor1.IN1
+Ai => and4.IN0
+Ai => inst10.IN0
+Yin => and2.IN1
+Xout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+Xin => and1.IN1
+Zout <= or2.DB_MAX_OUTPUT_PORT_TYPE
+Zin => and3.IN1
+
+
+|SignedCmpDemo|SignedCmp4bit:inst|Cmp1Bit:inst1
+Yout <= and2.DB_MAX_OUTPUT_PORT_TYPE
+Bi => xor1.IN0
+Bi => inst7.IN0
+Bi => and6.IN1
+Ai => xor1.IN1
+Ai => and4.IN0
+Ai => inst10.IN0
+Yin => and2.IN1
+Xout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+Xin => and1.IN1
+Zout <= or2.DB_MAX_OUTPUT_PORT_TYPE
+Zin => and3.IN1
+
+
+|SignedCmpDemo|SignedCmp4bit:inst|Cmp1Bit:inst
+Yout <= and2.DB_MAX_OUTPUT_PORT_TYPE
+Bi => xor1.IN0
+Bi => inst7.IN0
+Bi => and6.IN1
+Ai => xor1.IN1
+Ai => and4.IN0
+Ai => inst10.IN0
+Yin => and2.IN1
+Xout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+Xin => and1.IN1
+Zout <= or2.DB_MAX_OUTPUT_PORT_TYPE
+Zin => and3.IN1
+
+

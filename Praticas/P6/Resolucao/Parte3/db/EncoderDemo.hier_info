@@ -1,0 +1,29 @@
+|PEnc8_3
+Y2 <= 11.DB_MAX_OUTPUT_PORT_TYPE
+X4 => inst.IN0
+X4 => 5.IN0
+X6 => inst.IN1
+X6 => 7.IN0
+X6 => inst5.IN1
+X7 => inst.IN2
+X7 => inst9.IN0
+X7 => inst5.IN2
+X7 => 8.IN0
+X5 => inst.IN3
+X5 => inst8.IN1
+X5 => 6.IN0
+E_L => 9.IN0
+E_L => 14.IN0
+Y0 <= 13.DB_MAX_OUTPUT_PORT_TYPE
+X3 => inst7.IN2
+X3 => inst4.IN2
+X3 => 4.IN0
+X2 => 3.IN0
+X2 => inst3.IN2
+X1 => inst6.IN3
+X1 => 2.IN0
+Y1 <= 12.DB_MAX_OUTPUT_PORT_TYPE
+OS_L <= 14.DB_MAX_OUTPUT_PORT_TYPE
+X0 => 1.IN0
+
+

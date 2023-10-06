@@ -1,0 +1,15 @@
+|SeqDet3in5
+Y <= ory.DB_MAX_OUTPUT_PORT_TYPE
+X => notx.IN0
+X => andq22.IN2
+X => andq12.IN2
+X => andq13.IN3
+X => andy1.IN0
+Clk => Q1.CLK
+Clk => Q2.CLK
+Clk => Q0.CLK
+P[0] => Q0.PRESET
+P[1] => Q1.PRESET
+P[2] => Q2.PRESET
+
+

@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/Avaliacao/Recurso/Pratico/simulation/qsim
+vp2
+Z1 !s110 1675874699
+!i10b 1
+!s100 V=mnRcFQQ6WK;AzNH>@;W3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRMYg[LBQ1MH_8C6V<5BHV1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1675874698
+Z4 8Problems.vo
+Z5 FProblems.vo
+!i122 6
+L0 32 258
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1675874699.000000
+Z8 !s107 Problems.vo|
+Z9 !s90 -work|work|Problems.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vp2_vlg_vec_tst
+R1
+!i10b 1
+!s100 hW9AJ]4W@]eoIZUShOiTW0
+R2
+II@58maO>ZR?:d^_AFWW7^0
+R3
+R0
+w1675874697
+8p2Sim.vwf.vt
+Fp2Sim.vwf.vt
+!i122 7
+L0 30 158
+R6
+r1
+!s85 0
+31
+R7
+!s107 p2Sim.vwf.vt|
+!s90 -work|work|p2Sim.vwf.vt|
+!i113 1
+R10
+R11
+vp3
+Z12 !s110 1675877071
+!i10b 1
+!s100 4eAYB:k7cbJ5mOXm;I3HP3
+R2
+I<z2Jh@HUTfzZMRO8PkkQ:1
+R3
+R0
+w1675877070
+R4
+R5
+!i122 36
+L0 32 261
+R6
+r1
+!s85 0
+31
+Z13 !s108 1675877071.000000
+R8
+R9
+!i113 1
+R10
+R11
+vp3_vlg_vec_tst
+R12
+!i10b 1
+!s100 e^h^=R>M]f4o0WIWf5L^P3
+R2
+IjIACSG<J6QMG7Nae560Z<2
+R3
+R0
+w1675877069
+8p3Sim.vwf.vt
+Fp3Sim.vwf.vt
+!i122 37
+L0 30 26
+R6
+r1
+!s85 0
+31
+R13
+!s107 p3Sim.vwf.vt|
+!s90 -work|work|p3Sim.vwf.vt|
+!i113 1
+R10
+R11

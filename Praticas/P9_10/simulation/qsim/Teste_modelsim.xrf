@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P9_10/Teste.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P9_10/Teste.vwf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P9_10/db/Teste.cbx.xml
+design_name = Teste
+instance = comp, \Y~output , Y~output, Teste, 1
+instance = comp, \x~input , x~input, Teste, 1
+instance = comp, \clk~input , clk~input, Teste, 1

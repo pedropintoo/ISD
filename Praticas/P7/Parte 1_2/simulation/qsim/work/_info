@@ -1,0 +1,155 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P7/Parte 1/simulation/qsim
+vMux2_1
+!s110 1668074044
+!i10b 1
+!s100 CeNIG5mT?SL4jIoGci<XG3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXK`5bS`h0[g9<g=Vf4XW80
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1668074043
+Z3 8MuxDemo.vo
+Z4 FMuxDemo.vo
+!i122 0
+L0 32 86
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1668074044.000000
+Z7 !s107 MuxDemo.vo|
+Z8 !s90 -work|work|MuxDemo.vo|
+!i113 1
+Z9 o-work work
+Z10 tCvgOpt 0
+n@mux2_1
+vMux2_1_vlg_vec_tst
+!s110 1668074045
+!i10b 1
+!s100 =zAASa?A4n;ifaTcP_KFc3
+R1
+IM0IbCgYciX;=CX5W:KWEf1
+R2
+R0
+w1668074042
+8MuxDemo.vwf.vt
+FMuxDemo.vwf.vt
+!i122 1
+L0 30 42
+R5
+r1
+!s85 0
+31
+R6
+!s107 MuxDemo.vwf.vt|
+!s90 -work|work|MuxDemo.vwf.vt|
+!i113 1
+R9
+R10
+n@mux2_1_vlg_vec_tst
+vMuxDemo2
+Z11 !s110 1668161231
+!i10b 1
+!s100 nM>mJ7:3^b9DRBQ^3M1C[1
+R1
+I5zKfCZfnk[I`2aD:1k]T=3
+R2
+R0
+Z12 w1668161230
+R3
+R4
+!i122 2
+Z13 L0 32 443
+R5
+r1
+!s85 0
+31
+Z14 !s108 1668161231.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@mux@demo2
+vMuxDemo2_vlg_vec_tst
+R11
+!i10b 1
+!s100 G6O`hH5S8OCVJ9>JRaQdX3
+R1
+I9129X_CYcjEQ@fd@c>b:@3
+R2
+R0
+R12
+8MuxDemo2.vwf.vt
+FMuxDemo2.vwf.vt
+!i122 3
+L0 30 345
+R5
+r1
+!s85 0
+31
+R14
+!s107 MuxDemo2.vwf.vt|
+!s90 -work|work|MuxDemo2.vwf.vt|
+!i113 1
+R9
+R10
+n@mux@demo2_vlg_vec_tst
+vMuxDemo3
+Z15 !s110 1668163457
+!i10b 1
+!s100 nzmLAa<[IIY@K?7@j;QC?2
+R1
+I[6:dQ6:E9_;ZXNk3B_@]]3
+R2
+R0
+w1668163456
+R3
+R4
+!i122 4
+R13
+R5
+r1
+!s85 0
+31
+Z16 !s108 1668163457.000000
+R7
+R8
+!i113 1
+R9
+R10
+n@mux@demo3
+vMuxDemo3_vlg_vec_tst
+R15
+!i10b 1
+!s100 0]MX]=45[c9<^Ndj=AV^N3
+R1
+I<DzQo[KmYU^C]63K_HL^S0
+R2
+R0
+w1668163455
+8MuxDemo3.vwf.vt
+FMuxDemo3.vwf.vt
+!i122 5
+L0 30 188
+R5
+r1
+!s85 0
+31
+R16
+!s107 MuxDemo3.vwf.vt|
+!s90 -work|work|MuxDemo3.vwf.vt|
+!i113 1
+R9
+R10
+n@mux@demo3_vlg_vec_tst

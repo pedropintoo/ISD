@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P7/Resolucao/Mux2_1.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P7/Resolucao/MuxDemo.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P7/Resolucao/MuxDemo.vwf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P7/Resolucao/Mux16_1.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P7/Resolucao/MuxDemo2.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P7/Resolucao/MuxDemo2.vwf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P7/Resolucao/MuxDemo3.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P7/Resolucao/db/MuxDemo.cbx.xml
+design_name = MuxDemo3
+instance = comp, \F~output , F~output, MuxDemo3, 1
+instance = comp, \A~input , A~input, MuxDemo3, 1
+instance = comp, \B~input , B~input, MuxDemo3, 1
+instance = comp, \C~input , C~input, MuxDemo3, 1
+instance = comp, \D~input , D~input, MuxDemo3, 1
+instance = comp, \inst|inst28|inst4~0 , inst|inst28|inst4~0, MuxDemo3, 1

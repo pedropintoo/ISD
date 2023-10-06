@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/Avaliacao/TP2_S1/S1/Mux8_1.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/Avaliacao/TP2_S1/S1/MuxDemo.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/Avaliacao/TP2_S1/S1/MuxDemo.vwf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/Avaliacao/TP2_S1/S1/Function.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/Avaliacao/TP2_S1/S1/Function.vwf
+source_file = 1, c:/quartu_prime_lite/quartus/libraries/others/maxplus2/74157.bdf
+design_name = \Function 
+instance = comp, \F~output , F~output, \Function , 1
+instance = comp, \D~input , D~input, \Function , 1
+instance = comp, \A~input , A~input, \Function , 1
+instance = comp, \B~input , B~input, \Function , 1
+instance = comp, \C~input , C~input, \Function , 1
+instance = comp, \1|inst3|22~0 , 1|inst3|22~0, \Function , 1

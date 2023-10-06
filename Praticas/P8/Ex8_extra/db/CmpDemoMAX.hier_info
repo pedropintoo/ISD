@@ -1,0 +1,96 @@
+|CmpDemoMAX
+Xout <= Cmp4BitMAX:inst.Xout
+A[0] => Cmp4BitMAX:inst.A[0]
+A[1] => Cmp4BitMAX:inst.A[1]
+A[2] => Cmp4BitMAX:inst.A[2]
+A[3] => Cmp4BitMAX:inst.A[3]
+B[0] => Cmp4BitMAX:inst.B[0]
+B[1] => Cmp4BitMAX:inst.B[1]
+B[2] => Cmp4BitMAX:inst.B[2]
+B[3] => Cmp4BitMAX:inst.B[3]
+Yout <= Cmp4BitMAX:inst.Yout
+Zout <= Cmp4BitMAX:inst.Zout
+
+
+|CmpDemoMAX|Cmp4BitMAX:inst
+Xout <= Cmp1BitMAX:inst9.Xout
+A[0] => Cmp1BitMAX:inst9.Ai
+A[1] => Cmp1BitMAX:inst8.Ai
+A[2] => Cmp1BitMAX:inst7.Ai
+A[3] => Cmp1BitMAX:inst6.Ai
+B[0] => Cmp1BitMAX:inst9.Bi
+B[1] => Cmp1BitMAX:inst8.Bi
+B[2] => Cmp1BitMAX:inst7.Bi
+B[3] => Cmp1BitMAX:inst6.Bi
+Yout <= Cmp1BitMAX:inst9.Yout
+Zout <= Cmp1BitMAX:inst9.Zout
+
+
+|CmpDemoMAX|Cmp4BitMAX:inst|Cmp1BitMAX:inst9
+Yout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Ai => xor1.IN0
+Ai => inst.IN0
+Ai => inst5.IN0
+Bi => xor1.IN1
+Bi => inst6.IN0
+Bi => inst2.IN1
+Yin => inst3.IN1
+Xout <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Xin => inst9.IN0
+Xin => inst8.IN0
+Zin => inst7.IN0
+Zin => inst10.IN0
+Zout <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CmpDemoMAX|Cmp4BitMAX:inst|Cmp1BitMAX:inst8
+Yout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Ai => xor1.IN0
+Ai => inst.IN0
+Ai => inst5.IN0
+Bi => xor1.IN1
+Bi => inst6.IN0
+Bi => inst2.IN1
+Yin => inst3.IN1
+Xout <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Xin => inst9.IN0
+Xin => inst8.IN0
+Zin => inst7.IN0
+Zin => inst10.IN0
+Zout <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CmpDemoMAX|Cmp4BitMAX:inst|Cmp1BitMAX:inst7
+Yout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Ai => xor1.IN0
+Ai => inst.IN0
+Ai => inst5.IN0
+Bi => xor1.IN1
+Bi => inst6.IN0
+Bi => inst2.IN1
+Yin => inst3.IN1
+Xout <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Xin => inst9.IN0
+Xin => inst8.IN0
+Zin => inst7.IN0
+Zin => inst10.IN0
+Zout <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CmpDemoMAX|Cmp4BitMAX:inst|Cmp1BitMAX:inst6
+Yout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Ai => xor1.IN0
+Ai => inst.IN0
+Ai => inst5.IN0
+Bi => xor1.IN1
+Bi => inst6.IN0
+Bi => inst2.IN1
+Yin => inst3.IN1
+Xout <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Xin => inst9.IN0
+Xin => inst8.IN0
+Zin => inst7.IN0
+Zin => inst10.IN0
+Zout <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+

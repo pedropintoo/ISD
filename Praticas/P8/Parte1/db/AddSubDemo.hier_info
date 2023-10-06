@@ -1,0 +1,77 @@
+|AddSub4
+OverFlow <= Xor5.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => FullAdder:FullAdder1.A
+A[1] => FullAdder:FullAdder2.A
+A[2] => FullAdder:FullAdder3.A
+A[3] => FullAdder:FullAdder4.A
+B[0] => Xor1.IN0
+B[1] => Xor2.IN0
+B[2] => Xor3.IN0
+B[3] => Xor4.IN0
+ADD_n_SUB => Xor4.IN1
+ADD_n_SUB => Xor3.IN1
+ADD_n_SUB => Xor2.IN1
+ADD_n_SUB => Xor1.IN1
+ADD_n_SUB => FullAdder:FullAdder1.Ci
+S[0] <= FullAdder:FullAdder1.S
+S[1] <= FullAdder:FullAdder2.S
+S[2] <= FullAdder:FullAdder3.S
+S[3] <= FullAdder:FullAdder4.S
+
+
+|AddSub4|FullAdder:FullAdder4
+Cout <= and4.DB_MAX_OUTPUT_PORT_TYPE
+B => and2.IN0
+B => and1.IN1
+B => Xor1.IN1
+Ci => and2.IN1
+Ci => and3.IN1
+Ci => xor2.IN1
+A => and3.IN0
+A => and1.IN0
+A => Xor1.IN0
+S <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AddSub4|FullAdder:FullAdder3
+Cout <= and4.DB_MAX_OUTPUT_PORT_TYPE
+B => and2.IN0
+B => and1.IN1
+B => Xor1.IN1
+Ci => and2.IN1
+Ci => and3.IN1
+Ci => xor2.IN1
+A => and3.IN0
+A => and1.IN0
+A => Xor1.IN0
+S <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AddSub4|FullAdder:FullAdder2
+Cout <= and4.DB_MAX_OUTPUT_PORT_TYPE
+B => and2.IN0
+B => and1.IN1
+B => Xor1.IN1
+Ci => and2.IN1
+Ci => and3.IN1
+Ci => xor2.IN1
+A => and3.IN0
+A => and1.IN0
+A => Xor1.IN0
+S <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|AddSub4|FullAdder:FullAdder1
+Cout <= and4.DB_MAX_OUTPUT_PORT_TYPE
+B => and2.IN0
+B => and1.IN1
+B => Xor1.IN1
+Ci => and2.IN1
+Ci => and3.IN1
+Ci => xor2.IN1
+A => and3.IN0
+A => and1.IN0
+A => Xor1.IN0
+S <= xor2.DB_MAX_OUTPUT_PORT_TYPE
+
+

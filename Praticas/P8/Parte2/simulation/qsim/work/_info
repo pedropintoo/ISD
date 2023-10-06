@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P8/Parte2/simulation/qsim
+vCmpDemo
+Z1 !s110 1668763681
+!i10b 1
+!s100 W9BW?65H=X3al9HD5MBV_3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVMI76[553lldgoUfim8IF0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1668763680
+Z5 8CmpDemo.vo
+Z6 FCmpDemo.vo
+!i122 6
+L0 32 304
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1668763681.000000
+Z9 !s107 CmpDemo.vo|
+Z10 !s90 -work|work|CmpDemo.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@cmp@demo
+vCmpDemo_vlg_vec_tst
+R1
+!i10b 1
+!s100 LS2dk;;Hlz5bZH;_nl8[j1
+R2
+IkT[MA3;<:gUbjJ_eDcd`20
+R3
+R0
+R4
+8CmpDemo.vwf.vt
+FCmpDemo.vwf.vt
+!i122 7
+L0 30 109
+R7
+r1
+!s85 0
+31
+R8
+!s107 CmpDemo.vwf.vt|
+!s90 -work|work|CmpDemo.vwf.vt|
+!i113 1
+R11
+R12
+n@cmp@demo_vlg_vec_tst
+vSignedCmpDemo
+Z13 !s110 1668788542
+!i10b 1
+!s100 8oWYeQ2=QD9ABEjUe52R`1
+R2
+I<EGM<C@k;KAR?[6gDhG]G0
+R3
+R0
+Z14 w1668788541
+R5
+R6
+!i122 20
+L0 32 338
+R7
+r1
+!s85 0
+31
+Z15 !s108 1668788542.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@signed@cmp@demo
+vSignedCmpDemo_vlg_vec_tst
+R13
+!i10b 1
+!s100 gQl^le0HS[gBF;cg4<e_f3
+R2
+IYk3D:nJQH6X3dkF=<D39<1
+R3
+R0
+R14
+8SignedCmpDemo.vwf.vt
+FSignedCmpDemo.vwf.vt
+!i122 21
+L0 30 238
+R7
+r1
+!s85 0
+31
+R15
+!s107 SignedCmpDemo.vwf.vt|
+!s90 -work|work|SignedCmpDemo.vwf.vt|
+!i113 1
+R11
+R12
+n@signed@cmp@demo_vlg_vec_tst

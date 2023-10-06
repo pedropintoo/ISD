@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P11_12_13/SeqDet3in5.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P11_12_13/SeqDet3in5.vwf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P11_12_13/db/SeqDet3in5.cbx.xml
+design_name = SeqDet3in5
+instance = comp, \Y~output , Y~output, SeqDet3in5, 1
+instance = comp, \Clk~input , Clk~input, SeqDet3in5, 1
+instance = comp, \X~input , X~input, SeqDet3in5, 1
+instance = comp, \orq2~0 , orq2~0, SeqDet3in5, 1
+instance = comp, \P[2]~input , P[2]~input, SeqDet3in5, 1
+instance = comp, \orq0~0 , orq0~0, SeqDet3in5, 1
+instance = comp, \P[0]~input , P[0]~input, SeqDet3in5, 1
+instance = comp, \orq1~0 , orq1~0, SeqDet3in5, 1
+instance = comp, \P[1]~input , P[1]~input, SeqDet3in5, 1

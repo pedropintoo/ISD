@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P9_10/Bin2Gray.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P9_10/Bin2Gray.vwf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P9_10/db/Bin2Gray.cbx.xml
+design_name = Bin2Gray
+instance = comp, \Y0~output , Y0~output, Bin2Gray, 1
+instance = comp, \Y1~output , Y1~output, Bin2Gray, 1
+instance = comp, \Clk~input , Clk~input, Bin2Gray, 1
+instance = comp, \X~input , X~input, Bin2Gray, 1
+instance = comp, \Reset~input , Reset~input, Bin2Gray, 1
+instance = comp, \and , and, Bin2Gray, 1

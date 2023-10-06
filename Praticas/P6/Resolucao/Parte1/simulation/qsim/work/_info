@@ -1,0 +1,203 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P6/Resolucao/Parte1/simulation/qsim
+vDec4_16
+Z1 !s110 1669229566
+!i10b 1
+!s100 RKR1`83HUo>c=iOJmlN2b3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IgC:fGLLLA<gAB:Sje@TWA1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1669229565
+Z5 8DecoderDemo.vo
+Z6 FDecoderDemo.vo
+!i122 4
+L0 32 666
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1669229566.000000
+Z9 !s107 DecoderDemo.vo|
+Z10 !s90 -work|work|DecoderDemo.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@dec4_16
+vDec4_16_vlg_vec_tst
+R1
+!i10b 1
+!s100 ;CEBHiU62`oSaz:]mZgJP3
+R2
+I<c9ZR[oU[28ag[Y1nV4:F3
+R3
+R0
+R4
+Z13 8DecDemo2.vwf.vt
+Z14 FDecDemo2.vwf.vt
+!i122 5
+L0 30 115
+R7
+r1
+!s85 0
+31
+R8
+Z15 !s107 DecDemo2.vwf.vt|
+Z16 !s90 -work|work|DecDemo2.vwf.vt|
+!i113 1
+R11
+R12
+n@dec4_16_vlg_vec_tst
+vDecDemo
+!s110 1669227830
+!i10b 1
+!s100 Ic4Y>1NR1`d@2U>lm<BcJ3
+R2
+IT4MF35m1a=ed[f1X>VkZM0
+R3
+R0
+w1669227829
+R5
+R6
+!i122 0
+L0 32 200
+R7
+r1
+!s85 0
+31
+Z17 !s108 1669227830.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@dec@demo
+vDecDemo2
+Z18 !s110 1669229985
+!i10b 1
+!s100 M7?RO?:kV]bzXb8[lQCaj3
+R2
+I;nl64]`enFiF]Y4CnWLOA2
+R3
+R0
+w1669229984
+R5
+R6
+!i122 6
+L0 32 717
+R7
+r1
+!s85 0
+31
+Z19 !s108 1669229985.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@dec@demo2
+vDecDemo2_vlg_vec_tst
+R18
+!i10b 1
+!s100 WeO?kUk2n;gR<oTYIS?Bi3
+R2
+ISZlk^T@cWFdCF:Z2QGE_E2
+R3
+R0
+w1669229983
+R13
+R14
+!i122 7
+L0 30 106
+R7
+r1
+!s85 0
+31
+R19
+R15
+R16
+!i113 1
+R11
+R12
+n@dec@demo2_vlg_vec_tst
+vDecDemo3
+Z20 !s110 1669230553
+!i10b 1
+!s100 9CDO7Bk?eKfX4i8e=eH]E3
+R2
+I:iOYoMoBj:8lCR;oe7I5_1
+R3
+R0
+w1669230551
+R5
+R6
+!i122 8
+L0 32 139
+R7
+r1
+!s85 0
+31
+!s108 1669230552.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@dec@demo3
+vDecDemo3_vlg_vec_tst
+R20
+!i10b 1
+!s100 ]6IOfzK;>]Y_6LA10YYkk2
+R2
+I:diNzIfYKA=BziaZAX`GT0
+R3
+R0
+w1669230547
+8DecDemo3.vwf.vt
+FDecDemo3.vwf.vt
+!i122 9
+L0 30 76
+R7
+r1
+!s85 0
+31
+!s108 1669230553.000000
+!s107 DecDemo3.vwf.vt|
+!s90 -work|work|DecDemo3.vwf.vt|
+!i113 1
+R11
+R12
+n@dec@demo3_vlg_vec_tst
+vDecDemo_vlg_vec_tst
+!s110 1669227831
+!i10b 1
+!s100 ``:FUc5lB8M`;k::YmckE1
+R2
+Ie1hJR:AEO4QYB0Mm5PDmR1
+R3
+R0
+w1669227828
+8DecDemo.vwf.vt
+FDecDemo.vwf.vt
+!i122 1
+L0 30 159
+R7
+r1
+!s85 0
+31
+R17
+!s107 DecDemo.vwf.vt|
+!s90 -work|work|DecDemo.vwf.vt|
+!i113 1
+R11
+R12
+n@dec@demo_vlg_vec_tst

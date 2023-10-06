@@ -1,0 +1,299 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P11_12_13/simulation/qsim
+vMod64Counter
+!s110 1672330085
+!i10b 1
+!s100 ZL7gVQC@dkkR2:?2FaWcd0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IbXlcDW3Pe8P4EV0D9a<lS2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1672330085
+8Mod64Counter.vo
+FMod64Counter.vo
+!i122 104
+L0 32 400
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1672330085.000000
+!s107 Mod64Counter.vo|
+!s90 -work|work|Mod64Counter.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@mod64@counter
+vMod64Counter_vlg_vec_tst
+!s110 1672330086
+!i10b 1
+!s100 PKBHa9]Pd0AYog>`BD@mc3
+R1
+IQekie<6lIGK^Y]LW:Emc<0
+R2
+R0
+w1672330084
+8Mod64Counter.vwf.vt
+FMod64Counter.vwf.vt
+!i122 105
+Z7 L0 30 26
+R3
+r1
+!s85 0
+31
+R4
+!s107 Mod64Counter.vwf.vt|
+!s90 -work|work|Mod64Counter.vwf.vt|
+!i113 1
+R5
+R6
+n@mod64@counter_vlg_vec_tst
+vSeqDet1101
+Z8 !s110 1672323060
+!i10b 1
+!s100 0>I[4V@eHDB]<O2JW;AW`3
+R1
+IE9IU7L8>=9DFCQf00odWZ2
+R2
+R0
+Z9 w1672323059
+8SeqDeta1101.vo
+FSeqDeta1101.vo
+!i122 62
+L0 32 204
+R3
+r1
+!s85 0
+31
+Z10 !s108 1672323060.000000
+!s107 SeqDeta1101.vo|
+!s90 -work|work|SeqDeta1101.vo|
+!i113 1
+R5
+R6
+n@seq@det1101
+vSeqDet1101_vlg_vec_tst
+R8
+!i10b 1
+!s100 A1@OK4FDKNbAZo0Uf9hgB2
+R1
+I>=FAGAzoDNP^z59ModQ8T0
+R2
+R0
+R9
+8SeqDet1101.vwf.vt
+FSeqDet1101.vwf.vt
+!i122 63
+L0 30 65
+R3
+r1
+!s85 0
+31
+R10
+!s107 SeqDet1101.vwf.vt|
+!s90 -work|work|SeqDet1101.vwf.vt|
+!i113 1
+R5
+R6
+n@seq@det1101_vlg_vec_tst
+vSeqDet3in5
+Z11 !s110 1671097010
+!i10b 1
+!s100 T85El_1I>MgeEJBl2=KFR3
+R1
+IQ9R:SN@OhI=^UYzCI44V`3
+R2
+R0
+w1671097009
+8SeqDet3in5.vo
+FSeqDet3in5.vo
+!i122 40
+L0 32 214
+R3
+r1
+!s85 0
+31
+Z12 !s108 1671097010.000000
+!s107 SeqDet3in5.vo|
+!s90 -work|work|SeqDet3in5.vo|
+!i113 1
+R5
+R6
+n@seq@det3in5
+vSeqDet3in5_vlg_vec_tst
+R11
+!i10b 1
+!s100 j:Om7:aGJj1WFXZLF6_5f0
+R1
+ILL>>Tlh`cPlzM>8V9m]gC3
+R2
+R0
+w1671097008
+8SeqDet3in5.vwf.vt
+FSeqDet3in5.vwf.vt
+!i122 41
+L0 30 70
+R3
+r1
+!s85 0
+31
+R12
+!s107 SeqDet3in5.vwf.vt|
+!s90 -work|work|SeqDet3in5.vwf.vt|
+!i113 1
+R5
+R6
+n@seq@det3in5_vlg_vec_tst
+vSerialNeg
+Z13 !s110 1672325802
+!i10b 1
+!s100 XOmEac7az=^LXPQiTf=N50
+R1
+I1>V5P_@abSQh@:fV6e1be2
+R2
+R0
+w1672325801
+8SerialNeg.vo
+FSerialNeg.vo
+!i122 84
+L0 32 141
+R3
+r1
+!s85 0
+31
+Z14 !s108 1672325802.000000
+!s107 SerialNeg.vo|
+!s90 -work|work|SerialNeg.vo|
+!i113 1
+R5
+R6
+n@serial@neg
+vSerialNeg_vlg_vec_tst
+R13
+!i10b 1
+!s100 f0b33WiFW45Mn5[SeXVFm2
+R1
+I3gj_c<^eB1FlPd]J:gIJA3
+R2
+R0
+w1672325800
+8SerialNeg.vwf.vt
+FSerialNeg.vwf.vt
+!i122 85
+L0 30 62
+R3
+r1
+!s85 0
+31
+R14
+!s107 SerialNeg.vwf.vt|
+!s90 -work|work|SerialNeg.vwf.vt|
+!i113 1
+R5
+R6
+n@serial@neg_vlg_vec_tst
+vSpecialCount0_9
+Z15 !s110 1672327961
+!i10b 1
+!s100 972iLSQl5LBKej@FZdoN>2
+R1
+IGh1CA`TPXFO0?PgNYXRGl1
+R2
+R0
+Z16 w1672327960
+8SpecialCount0_9.vo
+FSpecialCount0_9.vo
+!i122 88
+Z17 L0 32 234
+R3
+r1
+!s85 0
+31
+Z18 !s108 1672327961.000000
+!s107 SpecialCount0_9.vo|
+!s90 -work|work|SpecialCount0_9.vo|
+!i113 1
+R5
+R6
+n@special@count0_9
+vSpecialCount0_9_vlg_vec_tst
+R15
+!i10b 1
+!s100 baQ1NElJcJ48>h2WzKWV]1
+R1
+I^X>2gkTQm@z>d_6mPC[KD3
+R2
+R0
+R16
+8SpecialCount0_9.vwf.vt
+FSpecialCount0_9.vwf.vt
+!i122 89
+R7
+R3
+r1
+!s85 0
+31
+R18
+!s107 SpecialCount0_9.vwf.vt|
+!s90 -work|work|SpecialCount0_9.vwf.vt|
+!i113 1
+R5
+R6
+n@special@count0_9_vlg_vec_tst
+vSpecialCount4_12
+Z19 !s110 1672327490
+!i10b 1
+!s100 nNjg;ck@JmMmzjn_3OWcX0
+R1
+I=0UblMkZ^KS23eH?o<R:O3
+R2
+R0
+Z20 w1672327489
+8SpecialCount4_12.vo
+FSpecialCount4_12.vo
+!i122 86
+R17
+R3
+r1
+!s85 0
+31
+Z21 !s108 1672327490.000000
+!s107 SpecialCount4_12.vo|
+!s90 -work|work|SpecialCount4_12.vo|
+!i113 1
+R5
+R6
+n@special@count4_12
+vSpecialCount4_12_vlg_vec_tst
+R19
+!i10b 1
+!s100 95=cU0g7Bk=PJinZA<d<;3
+R1
+IzoiQNRcPXzJI4hT__PZP21
+R2
+R0
+R20
+8SpecialCount4_12.vwf.vt
+FSpecialCount4_12.vwf.vt
+!i122 87
+R7
+R3
+r1
+!s85 0
+31
+R21
+!s107 SpecialCount4_12.vwf.vt|
+!s90 -work|work|SpecialCount4_12.vwf.vt|
+!i113 1
+R5
+R6
+n@special@count4_12_vlg_vec_tst

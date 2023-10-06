@@ -1,0 +1,12 @@
+|SerialNeg
+Y <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Q0.CLK
+Clk => Q1.CLK
+Reset => inst10.IN0
+Reset => inst11.IN1
+X => inst7.IN0
+X => inst1.IN0
+X => inst.IN0
+X => inst3.IN1
+
+

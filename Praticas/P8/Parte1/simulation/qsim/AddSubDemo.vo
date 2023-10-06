@@ -1,0 +1,358 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+
+// DATE "11/23/2022 22:50:12"
+
+// 
+// Device: Altera EP4CE115F29C7 Package FBGA780
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module AddSub4 (
+	OverFlow,
+	A,
+	B,
+	ADD_n_SUB,
+	S);
+output 	OverFlow;
+input 	[3:0] A;
+input 	[3:0] B;
+input 	ADD_n_SUB;
+output 	[3:0] S;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \OverFlow~output_o ;
+wire \S[3]~output_o ;
+wire \S[2]~output_o ;
+wire \S[1]~output_o ;
+wire \S[0]~output_o ;
+wire \B[3]~input_o ;
+wire \ADD_n_SUB~input_o ;
+wire \B[2]~input_o ;
+wire \B[1]~input_o ;
+wire \A[0]~input_o ;
+wire \B[0]~input_o ;
+wire \FullAdder1|and4~0_combout ;
+wire \A[1]~input_o ;
+wire \FullAdder2|and4~0_combout ;
+wire \A[2]~input_o ;
+wire \FullAdder3|and4~0_combout ;
+wire \A[3]~input_o ;
+wire \Xor5~0_combout ;
+wire \FullAdder4|xor2~0_combout ;
+wire \FullAdder3|xor2~0_combout ;
+wire \FullAdder2|xor2~combout ;
+wire \FullAdder1|xor2~0_combout ;
+
+
+cycloneive_io_obuf \OverFlow~output (
+	.i(\Xor5~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\OverFlow~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \OverFlow~output .bus_hold = "false";
+defparam \OverFlow~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_obuf \S[3]~output (
+	.i(\FullAdder4|xor2~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\S[3]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \S[3]~output .bus_hold = "false";
+defparam \S[3]~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_obuf \S[2]~output (
+	.i(\FullAdder3|xor2~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\S[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \S[2]~output .bus_hold = "false";
+defparam \S[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_obuf \S[1]~output (
+	.i(\FullAdder2|xor2~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\S[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \S[1]~output .bus_hold = "false";
+defparam \S[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_obuf \S[0]~output (
+	.i(\FullAdder1|xor2~0_combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\S[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \S[0]~output .bus_hold = "false";
+defparam \S[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+cycloneive_io_ibuf \B[3]~input (
+	.i(B[3]),
+	.ibar(gnd),
+	.o(\B[3]~input_o ));
+// synopsys translate_off
+defparam \B[3]~input .bus_hold = "false";
+defparam \B[3]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \ADD_n_SUB~input (
+	.i(ADD_n_SUB),
+	.ibar(gnd),
+	.o(\ADD_n_SUB~input_o ));
+// synopsys translate_off
+defparam \ADD_n_SUB~input .bus_hold = "false";
+defparam \ADD_n_SUB~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \B[2]~input (
+	.i(B[2]),
+	.ibar(gnd),
+	.o(\B[2]~input_o ));
+// synopsys translate_off
+defparam \B[2]~input .bus_hold = "false";
+defparam \B[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \B[1]~input (
+	.i(B[1]),
+	.ibar(gnd),
+	.o(\B[1]~input_o ));
+// synopsys translate_off
+defparam \B[1]~input .bus_hold = "false";
+defparam \B[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \A[0]~input (
+	.i(A[0]),
+	.ibar(gnd),
+	.o(\A[0]~input_o ));
+// synopsys translate_off
+defparam \A[0]~input .bus_hold = "false";
+defparam \A[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_io_ibuf \B[0]~input (
+	.i(B[0]),
+	.ibar(gnd),
+	.o(\B[0]~input_o ));
+// synopsys translate_off
+defparam \B[0]~input .bus_hold = "false";
+defparam \B[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_lcell_comb \FullAdder1|and4~0 (
+// Equation(s):
+// \FullAdder1|and4~0_combout  = (\B[0]~input_o  & (\A[0]~input_o )) # (!\B[0]~input_o  & ((\ADD_n_SUB~input_o )))
+
+	.dataa(\A[0]~input_o ),
+	.datab(\ADD_n_SUB~input_o ),
+	.datac(gnd),
+	.datad(\B[0]~input_o ),
+	.cin(gnd),
+	.combout(\FullAdder1|and4~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \FullAdder1|and4~0 .lut_mask = 16'hAACC;
+defparam \FullAdder1|and4~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_io_ibuf \A[1]~input (
+	.i(A[1]),
+	.ibar(gnd),
+	.o(\A[1]~input_o ));
+// synopsys translate_off
+defparam \A[1]~input .bus_hold = "false";
+defparam \A[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_lcell_comb \FullAdder2|and4~0 (
+// Equation(s):
+// \FullAdder2|and4~0_combout  = (\FullAdder1|and4~0_combout  & ((\A[1]~input_o ) # (\ADD_n_SUB~input_o  $ (\B[1]~input_o )))) # (!\FullAdder1|and4~0_combout  & (\A[1]~input_o  & (\ADD_n_SUB~input_o  $ (\B[1]~input_o ))))
+
+	.dataa(\ADD_n_SUB~input_o ),
+	.datab(\B[1]~input_o ),
+	.datac(\FullAdder1|and4~0_combout ),
+	.datad(\A[1]~input_o ),
+	.cin(gnd),
+	.combout(\FullAdder2|and4~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \FullAdder2|and4~0 .lut_mask = 16'hF660;
+defparam \FullAdder2|and4~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_io_ibuf \A[2]~input (
+	.i(A[2]),
+	.ibar(gnd),
+	.o(\A[2]~input_o ));
+// synopsys translate_off
+defparam \A[2]~input .bus_hold = "false";
+defparam \A[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_lcell_comb \FullAdder3|and4~0 (
+// Equation(s):
+// \FullAdder3|and4~0_combout  = (\FullAdder2|and4~0_combout  & ((\A[2]~input_o ) # (\B[2]~input_o  $ (\ADD_n_SUB~input_o )))) # (!\FullAdder2|and4~0_combout  & (\A[2]~input_o  & (\B[2]~input_o  $ (\ADD_n_SUB~input_o ))))
+
+	.dataa(\B[2]~input_o ),
+	.datab(\ADD_n_SUB~input_o ),
+	.datac(\FullAdder2|and4~0_combout ),
+	.datad(\A[2]~input_o ),
+	.cin(gnd),
+	.combout(\FullAdder3|and4~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \FullAdder3|and4~0 .lut_mask = 16'hF660;
+defparam \FullAdder3|and4~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_io_ibuf \A[3]~input (
+	.i(A[3]),
+	.ibar(gnd),
+	.o(\A[3]~input_o ));
+// synopsys translate_off
+defparam \A[3]~input .bus_hold = "false";
+defparam \A[3]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cycloneive_lcell_comb \Xor5~0 (
+// Equation(s):
+// \Xor5~0_combout  = (\FullAdder3|and4~0_combout  & (!\A[3]~input_o  & (\B[3]~input_o  $ (!\ADD_n_SUB~input_o )))) # (!\FullAdder3|and4~0_combout  & (\A[3]~input_o  & (\B[3]~input_o  $ (\ADD_n_SUB~input_o ))))
+
+	.dataa(\B[3]~input_o ),
+	.datab(\ADD_n_SUB~input_o ),
+	.datac(\FullAdder3|and4~0_combout ),
+	.datad(\A[3]~input_o ),
+	.cin(gnd),
+	.combout(\Xor5~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \Xor5~0 .lut_mask = 16'h0690;
+defparam \Xor5~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_lcell_comb \FullAdder4|xor2~0 (
+// Equation(s):
+// \FullAdder4|xor2~0_combout  = \ADD_n_SUB~input_o  $ (\FullAdder3|and4~0_combout  $ (\B[3]~input_o  $ (\A[3]~input_o )))
+
+	.dataa(\ADD_n_SUB~input_o ),
+	.datab(\FullAdder3|and4~0_combout ),
+	.datac(\B[3]~input_o ),
+	.datad(\A[3]~input_o ),
+	.cin(gnd),
+	.combout(\FullAdder4|xor2~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \FullAdder4|xor2~0 .lut_mask = 16'h6996;
+defparam \FullAdder4|xor2~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_lcell_comb \FullAdder3|xor2~0 (
+// Equation(s):
+// \FullAdder3|xor2~0_combout  = \B[2]~input_o  $ (\ADD_n_SUB~input_o  $ (\FullAdder2|and4~0_combout  $ (\A[2]~input_o )))
+
+	.dataa(\B[2]~input_o ),
+	.datab(\ADD_n_SUB~input_o ),
+	.datac(\FullAdder2|and4~0_combout ),
+	.datad(\A[2]~input_o ),
+	.cin(gnd),
+	.combout(\FullAdder3|xor2~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \FullAdder3|xor2~0 .lut_mask = 16'h6996;
+defparam \FullAdder3|xor2~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_lcell_comb \FullAdder2|xor2 (
+// Equation(s):
+// \FullAdder2|xor2~combout  = \ADD_n_SUB~input_o  $ (\B[1]~input_o  $ (\FullAdder1|and4~0_combout  $ (\A[1]~input_o )))
+
+	.dataa(\ADD_n_SUB~input_o ),
+	.datab(\B[1]~input_o ),
+	.datac(\FullAdder1|and4~0_combout ),
+	.datad(\A[1]~input_o ),
+	.cin(gnd),
+	.combout(\FullAdder2|xor2~combout ),
+	.cout());
+// synopsys translate_off
+defparam \FullAdder2|xor2 .lut_mask = 16'h6996;
+defparam \FullAdder2|xor2 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneive_lcell_comb \FullAdder1|xor2~0 (
+// Equation(s):
+// \FullAdder1|xor2~0_combout  = \A[0]~input_o  $ (\B[0]~input_o )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\A[0]~input_o ),
+	.datad(\B[0]~input_o ),
+	.cin(gnd),
+	.combout(\FullAdder1|xor2~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \FullAdder1|xor2~0 .lut_mask = 16'h0FF0;
+defparam \FullAdder1|xor2~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign OverFlow = \OverFlow~output_o ;
+
+assign S[3] = \S[3]~output_o ;
+
+assign S[2] = \S[2]~output_o ;
+
+assign S[1] = \S[1]~output_o ;
+
+assign S[0] = \S[0]~output_o ;
+
+endmodule

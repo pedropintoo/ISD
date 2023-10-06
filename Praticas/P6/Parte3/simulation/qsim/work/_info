@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P6/Parte3/simulation/qsim
+vEncoderDemo
+Z1 !s110 1668037054
+!i10b 1
+!s100 h2kAmocLPo4:dGI^XB6M;3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJT1bD5HLK_aignef<D2N?3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1668037054
+Z4 8EncoderDemo.vo
+Z5 FEncoderDemo.vo
+!i122 32
+Z6 L0 32 311
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1668037054.000000
+Z9 !s107 EncoderDemo.vo|
+Z10 !s90 -work|work|EncoderDemo.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@encoder@demo
+vEncoderDemo_vlg_vec_tst
+R1
+!i10b 1
+!s100 9DCURA>gU_E3]zKX?eOMT2
+R2
+I9a[;>Z:3SV?d9_=<0S[N;2
+R3
+R0
+w1668037053
+8EncoderDemo.vwf.vt
+FEncoderDemo.vwf.vt
+!i122 33
+L0 30 265
+R7
+r1
+!s85 0
+31
+R8
+!s107 EncoderDemo.vwf.vt|
+!s90 -work|work|EncoderDemo.vwf.vt|
+!i113 1
+R11
+R12
+n@encoder@demo_vlg_vec_tst
+vPEnc8_3
+Z13 !s110 1668036205
+!i10b 1
+!s100 eUj_bPici800oI;ldRd?T2
+R2
+IK<fW8aV]RP_>>A^3FMJMW2
+R3
+R0
+w1668036205
+R4
+R5
+!i122 26
+R6
+R7
+r1
+!s85 0
+31
+Z14 !s108 1668036205.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@p@enc8_3
+vPEnc8_3_vlg_vec_tst
+R13
+!i10b 1
+!s100 kB1]i2ZNRg3@P;57>cg^P0
+R2
+IA6aW6I_DI4<Bmac0h13<M0
+R3
+R0
+w1668036204
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+!i122 27
+L0 30 100
+R7
+r1
+!s85 0
+31
+R14
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+n@p@enc8_3_vlg_vec_tst

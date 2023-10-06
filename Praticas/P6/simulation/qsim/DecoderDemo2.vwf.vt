@@ -1,0 +1,144 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/04/2022 10:07:56"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          Dec4_16
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Dec4_16_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg E0_L;
+reg E1;
+reg X0;
+reg X1;
+reg X2;
+reg X3;
+// wires                                               
+wire Y00;
+wire Y01;
+wire Y02;
+wire Y03;
+wire Y04;
+wire Y05;
+wire Y06;
+wire Y07;
+wire Y08;
+wire Y09;
+wire Y10;
+wire Y11;
+wire Y12;
+wire Y13;
+wire Y14;
+wire Y15;
+
+// assign statements (if any)                          
+Dec4_16 i1 (
+// port map - connection between master ports and signals/registers   
+	.E0_L(E0_L),
+	.E1(E1),
+	.X0(X0),
+	.X1(X1),
+	.X2(X2),
+	.X3(X3),
+	.Y00(Y00),
+	.Y01(Y01),
+	.Y02(Y02),
+	.Y03(Y03),
+	.Y04(Y04),
+	.Y05(Y05),
+	.Y06(Y06),
+	.Y07(Y07),
+	.Y08(Y08),
+	.Y09(Y09),
+	.Y10(Y10),
+	.Y11(Y11),
+	.Y12(Y12),
+	.Y13(Y13),
+	.Y14(Y14),
+	.Y15(Y15)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// E1
+initial
+begin
+	E1 = 1'b1;
+end 
+
+// E0_L
+initial
+begin
+	E0_L = 1'b0;
+end 
+
+// X3
+initial
+begin
+	repeat(3)
+	begin
+		X3 = 1'b0;
+		X3 = #160000 1'b1;
+		# 160000;
+	end
+	X3 = 1'b0;
+end 
+
+// X2
+initial
+begin
+	repeat(6)
+	begin
+		X2 = 1'b0;
+		X2 = #80000 1'b1;
+		# 80000;
+	end
+	X2 = 1'b0;
+end 
+
+// X1
+initial
+begin
+	repeat(12)
+	begin
+		X1 = 1'b0;
+		X1 = #40000 1'b1;
+		# 40000;
+	end
+	X1 = 1'b0;
+end 
+
+// X0
+always
+begin
+	X0 = 1'b0;
+	X0 = #20000 1'b1;
+	#20000;
+end 
+endmodule
+

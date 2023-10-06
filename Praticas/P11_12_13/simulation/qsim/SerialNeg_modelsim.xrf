@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P11_12_13/SerialNeg.bdf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P11_12_13/SerialNeg.vwf
+source_file = 1, C:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P11_12_13/db/SerialNeg.cbx.xml
+design_name = SerialNeg
+instance = comp, \Y~output , Y~output, SerialNeg, 1
+instance = comp, \Clk~input , Clk~input, SerialNeg, 1
+instance = comp, \Reset~input , Reset~input, SerialNeg, 1
+instance = comp, \X~input , X~input, SerialNeg, 1
+instance = comp, \inst11~0 , inst11~0, SerialNeg, 1
+instance = comp, \inst10~0 , inst10~0, SerialNeg, 1

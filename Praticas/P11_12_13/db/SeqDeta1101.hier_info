@@ -1,0 +1,11 @@
+|SeqDet1101
+Y <= and3.DB_MAX_OUTPUT_PORT_TYPE
+X => and3.IN0
+X => Q1.DATAIN
+X => not1.IN0
+Clk => Q1.CLK
+Clk => Q0.CLK
+C1 => Q0.ACLR
+P1 => Q0.PRESET
+
+

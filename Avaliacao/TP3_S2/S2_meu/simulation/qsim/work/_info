@@ -1,0 +1,155 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/Avaliacao/TP3_S2/S2_meu/simulation/qsim
+vDetSeq
+Z1 !s110 1672913567
+!i10b 1
+!s100 OVfTo^lGzQkC7n9fWB8[Q0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+II1@MFL[J0FJiHPO`eN_610
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1672913565
+Z5 8ISDSim2.vo
+Z6 FISDSim2.vo
+!i122 8
+Z7 L0 32 180
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1672913566.000000
+Z9 !s107 ISDSim2.vo|
+Z10 !s90 -work|work|ISDSim2.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@det@seq
+vDetSeq_vlg_vec_tst
+R1
+!i10b 1
+!s100 =GI=B?ZS@c53fM8@;XHa12
+R2
+ICAF4A7m51P?P4SncPjF;Q3
+R3
+R0
+R4
+8DetSeq.vwf.vt
+FDetSeq.vwf.vt
+!i122 9
+L0 30 102
+R8
+r1
+!s85 0
+31
+!s108 1672913567.000000
+!s107 DetSeq.vwf.vt|
+!s90 -work|work|DetSeq.vwf.vt|
+!i113 1
+R11
+R12
+n@det@seq_vlg_vec_tst
+vMDetSeq
+Z13 !s110 1672913960
+!i10b 1
+!s100 X`;UMAbLIeRmLg6S6R`BC0
+R2
+IKdVIDjdhL`D0JQMHLVXiS0
+R3
+R0
+w1672913959
+R5
+R6
+!i122 12
+R7
+R8
+r1
+!s85 0
+31
+Z14 !s108 1672913960.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@m@det@seq
+vMDetSeq_vlg_vec_tst
+R13
+!i10b 1
+!s100 GOLGRDX2];`igo??SZmQn3
+R2
+I2MG^J9OzVUJo[eWZ@RI`a3
+R3
+R0
+w1672913958
+Z15 8MDetSeq.vwf.vt
+Z16 FMDetSeq.vwf.vt
+!i122 13
+L0 30 92
+R8
+r1
+!s85 0
+31
+R14
+!s107 MDetSeq.vwf.vt|
+Z17 !s90 -work|work|MDetSeq.vwf.vt|
+!i113 1
+R11
+R12
+n@m@det@seq_vlg_vec_tst
+vMEF
+Z18 !s110 1672944277
+!i10b 1
+!s100 hYiOeBZMTSfn6_4Ab<J471
+R2
+IzI]XYdAdm;T4]UW^5:6nC3
+R3
+R0
+Z19 w1672944276
+R5
+R6
+!i122 28
+L0 32 212
+R8
+r1
+!s85 0
+31
+Z20 !s108 1672944277.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@m@e@f
+vMEF_vlg_vec_tst
+R18
+!i10b 1
+!s100 ?TDe@@ei]zY6:4HBXGcdn0
+R2
+IN>dEV`gPSSJ<jd69:>`P]1
+R3
+R0
+R19
+R15
+R16
+!i122 29
+L0 30 22
+R8
+r1
+!s85 0
+31
+R20
+Z21 !s107 MDetSeq.vwf.vt|
+R17
+!i113 1
+R11
+R12
+n@m@e@f_vlg_vec_tst

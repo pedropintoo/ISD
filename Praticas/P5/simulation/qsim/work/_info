@@ -1,0 +1,155 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Quartu_Prime_Lite/ISD/Guioes/Guiao_5/simulation/qsim
+vEpComp16
+Z1 !s110 1666950632
+!i10b 1
+!s100 h_IS3LeNcS_XXA[:5iXBA0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;E_T5oG=_8kOTfPBicGTE1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dC:/Users/pedro/OneDrive - Universidade de Aveiro/Universidade/1ano/1semestre/ISD/P/P5/simulation/qsim
+w1666950631
+Z5 8EqCmpDemo.vo
+Z6 FEqCmpDemo.vo
+!i122 28
+L0 32 544
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1666950632.000000
+Z9 !s107 EqCmpDemo.vo|
+Z10 !s90 -work|work|EqCmpDemo.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@ep@comp16
+vEpComp16_vlg_vec_tst
+R1
+!i10b 1
+!s100 h=]i:6><kN:9TeKUSBKae0
+R2
+IERd0@1BNWXOII[bjIbGa:3
+R3
+R4
+w1666950630
+8EqCmp16.vwf.vt
+FEqCmp16.vwf.vt
+!i122 29
+L0 30 1922
+R7
+r1
+!s85 0
+31
+R8
+!s107 EqCmp16.vwf.vt|
+!s90 -work|work|EqCmp16.vwf.vt|
+!i113 1
+R11
+R12
+n@ep@comp16_vlg_vec_tst
+vEqCmp4
+Z13 !s110 1666945864
+!i10b 1
+!s100 d?MQj7=c9doji0DQK;>kW3
+R2
+I`SU8M:Hha^K`UPM2b36nR2
+R3
+R0
+w1666945863
+R5
+R6
+!i122 12
+L0 32 168
+R7
+r1
+!s85 0
+31
+Z14 !s108 1666945864.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@eq@cmp4
+vEqCmp4_vlg_vec_tst
+R13
+!i10b 1
+!s100 D_gNSF0Kf0h]cDQEWC=2@2
+R2
+I5<8Al]SY9cQPIcm>F:AEc3
+R3
+R0
+w1666945862
+8EqCmpDemo.vwf.vt
+FEqCmpDemo.vwf.vt
+!i122 13
+L0 30 86
+R7
+r1
+!s85 0
+31
+R14
+!s107 EqCmpDemo.vwf.vt|
+!s90 -work|work|EqCmpDemo.vwf.vt|
+!i113 1
+R11
+R12
+n@eq@cmp4_vlg_vec_tst
+vGateDemo
+Z15 !s110 1666911131
+!i10b 1
+!s100 [l^odHAMYYV=6oA@SQ_l[3
+R2
+IC:H`RT9Jd4Ohg3<@ezN>A3
+R3
+R0
+w1666911130
+8GateDemo.vo
+FGateDemo.vo
+!i122 6
+L0 32 74
+R7
+r1
+!s85 0
+31
+Z16 !s108 1666911131.000000
+!s107 GateDemo.vo|
+!s90 -work|work|GateDemo.vo|
+!i113 1
+R11
+R12
+n@gate@demo
+vGateDemo_vlg_vec_tst
+R15
+!i10b 1
+!s100 hHZLP6OgK6N;k2UX3afN51
+R2
+IY_l6TcfDn4Z[BIVo>Q6@B1
+R3
+R0
+w1666911129
+8GateDemo.vwf.vt
+FGateDemo.vwf.vt
+!i122 7
+L0 30 41
+R7
+r1
+!s85 0
+31
+R16
+!s107 GateDemo.vwf.vt|
+!s90 -work|work|GateDemo.vwf.vt|
+!i113 1
+R11
+R12
+n@gate@demo_vlg_vec_tst

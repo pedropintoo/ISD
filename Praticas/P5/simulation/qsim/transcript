@@ -1,0 +1,32 @@
+# do EqCmpDemo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:50:32 on Oct 28,2022
+# vlog -work work EqCmpDemo.vo 
+# -- Compiling module EpComp16
+# 
+# Top level modules:
+# 	EpComp16
+# End time: 10:50:32 on Oct 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:50:32 on Oct 28,2022
+# vlog -work work EqCmp16.vwf.vt 
+# -- Compiling module EpComp16_vlg_vec_tst
+# 
+# Top level modules:
+# 	EpComp16_vlg_vec_tst
+# End time: 10:50:32 on Oct 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.EpComp16_vlg_vec_tst 
+# Start time: 10:50:32 on Oct 28,2022
+# Loading work.EpComp16_vlg_vec_tst
+# Loading work.EpComp16
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# after#25
+# ** Note: $finish    : EqCmp16.vwf.vt(47)
+#    Time: 1 us  Iteration: 0  Instance: /EpComp16_vlg_vec_tst
+# End time: 10:50:32 on Oct 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
